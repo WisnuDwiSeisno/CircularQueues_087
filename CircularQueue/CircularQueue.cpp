@@ -44,5 +44,6 @@ public:
 			cout << "Queue is Empty\n";
 			return;
 		}
+		cout << "\nThe element deleted from the queue is: " << queue_array[FRONT] << "\n";
 	}
 };
