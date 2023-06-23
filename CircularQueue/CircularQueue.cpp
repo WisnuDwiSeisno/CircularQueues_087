@@ -39,6 +39,10 @@ public:
 	}
 
 	void remove() {
-
+		//Cek Apakah antrian kosong
+		if (FRONT == -1) {
+			cout << "Queue is Empty\n";
+			return;
+		}
 	}
 };
